@@ -18,7 +18,7 @@ LRESULT CALLBACK MainMsgProc (HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 	}
 }
 
-DXUAppUtilities::DXUtilities (HINSTANCE hInstance)
+DXUAppUtilities::DXUAppUtilities (HINSTANCE hInstance)
 {
 	m_HWND = nullptr;
 	m_hAppInstance = hInstance;
@@ -29,7 +29,7 @@ DXUAppUtilities::DXUtilities (HINSTANCE hInstance)
 	//g_pDXU = this;
 }
 
-DXUAppUtilities::~DXUtilities ()
+DXUAppUtilities::~DXUAppUtilities ()
 {}
 
 int DXUAppUtilities::Run ()
